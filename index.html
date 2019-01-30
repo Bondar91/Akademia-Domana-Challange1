@@ -9,23 +9,32 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
+    <div class="comming-soon">
+        <img src="img/coming-soon-ribbon.png" class="comming-soon__img" alt="">
+    </div>
+    
     <header class="header">
-        <img src="" class="header__img" alt="">
-        <h1 class="header_title"></h1>
+        <img src="img/pobrane.svg" class="header__img" alt="">
+        <h1 class="header__title">Code academy</h1>
     </header>
 
     <main>
         <form class="form" action="" >
-            <label class="form__label" for="email">Leave your email</label>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <button type="submit">Get early access</button>
+            <h2 class="form__title">Leave your email</h2>
+
+            <span class="form__error">Invalid E-mail</span>
+            <input type="email" name="email" class="form__input"  placeholder="E-mail">
+            <button type="submit" class="form__btn">Get early access</button>
+            <span class="form__success">E-mail został zapisany!:)</span>
         </form>
     </main>
 
     <footer class="footer">
         <p class="footer__info">User &copy 2019.</p>
-        <p class="footer__info">Made with <img src="" class="footer__img" alt=""> in Poland</p>
+        <p class="footer__info">Made with <img src="img/love.png" class="footer__img" alt=""> in Poland</p>
         <p class="footer__info">We`re using cookies to improve your experience.</p>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
